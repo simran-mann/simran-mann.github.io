@@ -71,8 +71,8 @@ footer {
 }
 
 .profile-pic {
-  width: 520px;     
-  height: 520px;     
+  width: 600px;     
+  height: 600px;     
   min-width: 120px;
   border-radius: 50%;
   flex-shrink: 0;
@@ -119,8 +119,8 @@ footer {
   }
   
   .profile-pic {
-    width: 120px;
-    height: 120px;
+    width: 300px;
+    height: 300px;
   }
   
   .intro-header {
