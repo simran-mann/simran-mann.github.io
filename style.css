@@ -70,13 +70,14 @@ footer {
   color: #777777;
 }
 
-.project-pic {
-  max-width: 600px;  /* limits huge images */
-  width: 100%;       /* scales down on smaller screens */
-  height: auto;
-  margin-top: 12px;
-  border-radius: 8px;
+.profile-pic {
+  width: 240px;   /* Increase from 180px */
+  height: 240px;  /* Increase from 180px */
+  min-width: 120px;
+  border-radius: 50%;
+  flex-shrink: 0;
 }
+
 
 .intro-header {
   display: flex;
