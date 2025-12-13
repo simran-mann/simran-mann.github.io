@@ -91,14 +91,6 @@ footer {
   width: 100%;
 }
 
-.profile-pic {
-  width: 180px;
-  height: 180px;
-   min-width: 120px;
-  border-radius: 50%;
-  flex-shrink: 0;            /* prevents image from shrinking */
-}
-
 .intro-text {
   flex: 1;                   /* text takes remaining space */
 }
