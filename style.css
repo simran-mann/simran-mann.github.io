@@ -77,10 +77,37 @@ footer {
   border-radius: 8px;
 }
 
+.intro-header {
+  display: flex;
+  align-items: center;       /* vertically centers text with image */
+  gap: 24px;                 /* space between image and text */
+  margin-bottom: 48px;
+}
+
 .profile-pic {
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  display: block;
-  margin: 40px auto 20px;
+  flex-shrink: 0;            /* prevents image from shrinking */
+}
+
+.intro-text {
+  flex: 1;                   /* text takes remaining space */
+}
+
+.intro-text h1 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.intro-text p {
+  color: #555555;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .intro-header {
+    flex-direction: column;
+    text-align: center;
+  }
 }
