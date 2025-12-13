@@ -81,15 +81,23 @@ footer {
 
 
 
-.project-pic {
+/* .project-pic {
   width: 330px;     
   height: 330px;     
   min-width: 100px;
   border-radius: 0%;
   flex-shrink: 0;
   object-fit: cover;
-}
+} */
 
+.project-pic {
+  max-width: 500px;   
+  width: 100%;     
+  height: auto;      
+  margin-top: 12px;
+  border-radius: 8px;
+  display: block;     
+}
 
 .intro-header {
   display: flex;
