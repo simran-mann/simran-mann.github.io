@@ -82,6 +82,7 @@ footer {
   align-items: center;       /* vertically centers text with image */
   gap: 24px;                 /* space between image and text */
   margin-bottom: 48px;
+  overflow: visible;  
 }
 
 .profile-pic {
