@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects · Simran Mann</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Projects</h1>
+    <a href="index.html" class="button">Home</a>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Parallel and Distributed Graph Algorithms</h2>
+      <ul>
+        <li>Implemented parallel PageRank and Triangle Counting graph algorithms using both <code>std::thread</code> for shared memory systems, and MPI across nodes in a cluster</li>
+        <li>Scaled implementations from single-node multithreaded execution to distributed MPI-based execution, optimizing message-passing to reduce synchronization overhead</li>
+        <li>Evaluated vertex-based, edge-based, and dynamic task decomposition approaches to improve load balance and inter-process communication</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Concurrent Data Structures Benchmarking</h2>
+      <ul>
+        <li>Implemented non-blocking queues (<a href="https://www.cs.rochester.edu/research/synchronization/pseudocode/queues.html" target="_blank">Micheal Scott queue</a>, read more here), stacks, and sets using lock-free linked lists</li>
+        <li>Benchmarked these data structures under multi-producer/multi-consumer workloads to analyze contention</li>
+        <li>Addressed ABA problems via version-tagged pointers and Compare-and-swap (CAS)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Decaf Compiler</h2>
+      <ul>
+        <li>Developed a compiler for a C-like language using Flex/Bison and LLVM IR, including SSA-form code generation and short-circuit evaluation</li>
+        <li>Gained practical experience with parsing, semantic analysis, and machine code generation pipelines</li>
+        <li>Built C runtime and Python scripts to automate testing, validating compilation and execution of code</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Network Traffic Classification</h2>
+      <ul>
+        <li>Developed ML models for classifying traffic as benign or malicious using decision trees, KNN, and neural networks</li>
+        <li>Here is me presenting my project:</li>
+      </ul>
+      <img src="pic.jpg" alt="Network Traffic Classification presentation" class="project-pic" />
+    </section>
+
+    <section>
+      <h2>Digital Embedded Clock</h2>
+      <ul>
+        <li>Developed a digital clock with real-time display, date/time adjustments, and alarm functionality on an embedded MCU</li>
+        <li>Implemented touchscreen functionality using interrupt-driven event handling to allow efficient data updates</li>
+      </ul>
+      <img src="images/clock.jpg" alt="Digital Embedded Clock" class="project-pic" />
+    </section>
+
+  </main>
+
+</body>
+</html>
