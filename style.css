@@ -82,10 +82,10 @@ footer {
 
 
 .project-pic {
-  width: 400px;     
-  height: 400px;     
-  min-width: 120px;
-  border-radius: 50%;
+  width: 130px;     
+  height: 130px;     
+  min-width: 100px;
+  border-radius: 0%;
   flex-shrink: 0;
   object-fit: cover;
 }
