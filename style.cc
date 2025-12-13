@@ -68,3 +68,19 @@ footer {
   font-size: 0.9rem;
   color: #777777;
 }
+
+.project-pic {
+  max-width: 600px;  /* limits huge images */
+  width: 100%;       /* scales down on smaller screens */
+  height: auto;
+  margin-top: 12px;
+  border-radius: 8px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: block;
+  margin: 40px auto 20px;
+}
