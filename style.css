@@ -16,6 +16,7 @@ body {
   max-width: 800px;
   margin: 48px auto;
   padding: 0 24px;
+  overflow-x: hidden; /*prevent horizontal scrolling */
 }
 
 /* Header */
@@ -79,11 +80,13 @@ footer {
 
 .intro-header {
   display: flex;
-  align-items: center;       /* vertically centers text with image */
+  align-items: flex-start;       /* vertically centers text with image */
   gap: 24px;                 /* space between image and text */
   margin-bottom: 48px;
-  overflow: visible;  
+
   flex-wrap: wrap;
+  max-width: 100%; 
+  width: 100%;
 }
 
 .profile-pic {
@@ -110,6 +113,15 @@ footer {
 
 @media (max-width: 600px) {
   body {
-    margin: 24px 12px; /* reduce margins/padding on narrow screens */
+    margin: 24px 12px;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .intro-header {
+    gap: 16px;
   }
 }
