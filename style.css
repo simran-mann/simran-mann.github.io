@@ -125,6 +125,18 @@ footer {
   line-height: 1.6;
 }
 
+
+.baking-pic {
+  max-width: 500px;   
+  width: 100%;     
+  height: auto;      
+  margin-top: 12px;
+  border-radius: 8px;
+  display: block;     
+}
+
+
+
 /* @media (max-width: 600px) {
   body {
     margin: 24px 12px;
