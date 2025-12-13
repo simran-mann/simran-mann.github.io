@@ -71,12 +71,12 @@ footer {
 }
 
 .profile-pic {
-  width: 280px;      
-  height: 280px;     
+  width: 520px;     
+  height: 520px;     
   min-width: 120px;
   border-radius: 50%;
   flex-shrink: 0;
-  object-fit: cover;  
+  object-fit: cover;
 }
 
 
