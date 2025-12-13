@@ -25,6 +25,19 @@
     </section>
 
     <section>
+  <h2>Rust-Haskell Language Interoperability</h2>
+  <ul>
+    <li>Built a DSL interpreter demonstrating cross-language interoperability between Rust and Haskell using Foreign Function Interface (FFI)</li>
+    <li>Implemented typechecking and type inference in Haskell to validate expressions with overloaded functions, handling types <code>TInt</code> and <code>TVec</code></li>
+    <li>Designed low-level evaluation logic in Rust for performance, with all data structures (integers and vectors) created and managed through Rust's memory model</li>
+    <li>Used FFI to bridge the languages: Haskell performs high-level type analysis while Rust handles efficient runtime execution and memory management</li>
+    <li>Implemented unsafe Rust operations with raw pointers and <code>extern "C"</code> functions to enable seamless data passing between the two languages</li>
+  </ul>
+</section>
+
+
+
+    <section>
       <h2>Concurrent Data Structures Benchmarking</h2>
       <ul>
         <li>Implemented non-blocking queues (<a href="https://www.cs.rochester.edu/u/scott/papers/1996_PODC_queues.pdf" target="_blank">Micheal Scott queue</a>), stacks, and sets using lock-free linked lists</li>
