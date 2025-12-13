@@ -83,11 +83,13 @@ footer {
   gap: 24px;                 /* space between image and text */
   margin-bottom: 48px;
   overflow: visible;  
+  flex-wrap: wrap;
 }
 
 .profile-pic {
   width: 180px;
   height: 180px;
+   min-width: 120px;
   border-radius: 50%;
   flex-shrink: 0;            /* prevents image from shrinking */
 }
@@ -107,8 +109,7 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .intro-header {
-    flex-direction: column;
-    text-align: center;
+  body {
+    margin: 24px 12px; /* reduce margins/padding on narrow screens */
   }
 }
