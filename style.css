@@ -113,7 +113,7 @@ footer {
   line-height: 1.6;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   body {
     margin: 24px 12px;
   }
@@ -126,4 +126,4 @@ footer {
   .intro-header {
     gap: 16px;
   }
-}
+} */
