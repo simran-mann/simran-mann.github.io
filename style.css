@@ -104,7 +104,7 @@ footer {
 
 .intro-text {
   flex: 1;                   /* text takes remaining space */
-  min-width: 350px;
+  min-width: 300px;
 }
 
 .intro-text h1 {
