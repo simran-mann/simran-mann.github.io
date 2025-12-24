@@ -151,3 +151,15 @@ footer {
     gap: 16px;
   }
 } */
+
+
+
+.recipe-link {
+  color: #7a4a2e;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.recipe-link:hover {
+  text-decoration: underline;
+}
