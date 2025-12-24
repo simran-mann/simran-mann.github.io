@@ -25,26 +25,7 @@
     </section>
 
     <section>
-  <h2>Rust-Haskell Language Interoperability</h2>
-  <ul>
-    <li>Built a DSL interpreter demonstrating cross-language interoperability between Rust and Haskell using Foreign Function Interface (FFI)</li>
-    <li>Implemented typechecking and type inference in Haskell to validate expressions with overloaded functions for integer and vector types
-    <li>Designed low-level evaluation logic in Rust, with all data structures created and managed through the Rust memory model for better performance</li>
-    <li>Used FFI to bridge the languages: Haskell performs high-level type analysis while Rust handels efficient runtime execution and memory management</li>
-    <li>Implemented unsafe Rust operations with raw pointers and <code>external C</code> functions to enable seamless data passing between the two languages</li>
-  </ul>
-</section>
 
-
-
-    <section>
-      <h2>Concurrent Data Structures Benchmarking</h2>
-      <ul>
-        <li>Implemented non-blocking queues (<a href="https://www.cs.rochester.edu/u/scott/papers/1996_PODC_queues.pdf" target="_blank">Micheal Scott queue</a>), stacks, and sets using lock-free linked lists</li>
-        <li>Benchmarked these data structures under multi-producer/multi-consumer workloads to analyze contention</li>
-        <li>Addressed ABA problems via version-tagged pointers and Compare-and-swap (CAS)</li>
-      </ul>
-    </section>
 
     <section>
       <h2>Decaf Compiler</h2>
@@ -91,11 +72,34 @@
   <div style="flex: 1; min-width: 300px;">
     <h2>Digital Embedded Clock</h2>
     <ul>
-      <li>Developed a digital clock with real-time display, date/time adjustments, and alarm functionality on an embedded MCU</li>
+      <li>Developed a digital clock displaying the current date and time on an LCD screen, with support for adjusting the time, date, and alarm settings</li>
+      <li>Configured the LCD and touchscreen modules using SPI, and used the LVGL graphics library to display features with text, colors, and other graphical elements such as boxes for a calendar</li>
       <li>Implemented touchscreen functionality using interrupt-driven event handling to allow efficient data updates</li>
     </ul>
   </div>
 </section>
+  <h2>Rust-Haskell Language Interoperability</h2>
+  <ul>
+    <li>Built a DSL interpreter demonstrating cross-language interoperability between Rust and Haskell using Foreign Function Interface (FFI)</li>
+    <li>Implemented typechecking and type inference in Haskell to validate expressions with overloaded functions for integer and vector types
+    <li>Designed low-level evaluation logic in Rust, with all data structures created and managed through the Rust memory model for better performance</li>
+    <li>Used FFI to bridge the languages: Haskell performs high-level type analysis while Rust handels efficient runtime execution and memory management</li>
+    <li>Implemented unsafe Rust operations with raw pointers and <code>external C</code> functions to enable seamless data passing between the two languages</li>
+  </ul>
+</section>
+
+
+
+    <section>
+      <h2>Concurrent Data Structures Benchmarking</h2>
+      <ul>
+        <li>Implemented non-blocking queues (<a href="https://www.cs.rochester.edu/u/scott/papers/1996_PODC_queues.pdf" target="_blank">Micheal Scott queue</a>), stacks, and sets using lock-free linked lists</li>
+        <li>Benchmarked these data structures under multi-producer/multi-consumer workloads to analyze contention</li>
+        <li>Addressed ABA problems via version-tagged pointers and Compare-and-swap (CAS)</li>
+      </ul>
+    </section>
+
+    
   </main>
 
 </body>
