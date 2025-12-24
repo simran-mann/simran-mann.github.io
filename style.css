@@ -163,3 +163,10 @@ footer {
 .recipe-link:hover {
   text-decoration: underline;
 }
+
+.gallery-img {
+  width: 100%;
+  height: 200px; /* pick a consistent height */
+  object-fit: cover; /* crops but keeps aspect ratio */
+  border-radius: 4px; /* optional, makes it look nicer */
+}
