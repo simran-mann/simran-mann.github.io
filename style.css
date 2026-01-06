@@ -70,7 +70,7 @@ footer {
   font-size: 0.9rem;
   color: #777777;
 }
-
+/* 
 .profile-pic {
   width: 400px;     
   height: 400px;     
@@ -79,8 +79,11 @@ footer {
   flex-shrink: 0;
   object-fit: cover;
 }
-
-
+ */
+.profile-pic {
+  width: clamp(220px, 25vw, 320px);
+  height: auto;
+}
 
 /* .project-pic {
   width: 330px;     
